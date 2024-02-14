@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#logo img{
+    width: 55px;
+    margin-left: 3%;
+}
+
+#main-nav{
+    display: flex;
+    
+}
+
+#left-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+}
+
+#main-nav a{
+    color: black;
+    font-weight:500;
+}
+
+#right-nav{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#drop{
+    background-color: transparent;
+    border: transparent;
+    color: black;
+    font-weight: 500;
+}
+
+#dropping{
+    border: transparent;
+    border-radius: 0;
+    background-color: white;
+}
+
+/* #navbarTogglerDemo02{
+    display: flex;
+    justify-self: left;
+     flex-direction: column; 
+}
+
+#main-nav ul{
+    padding-left: 20px;
+} */
+
+main{
+    margin-top: 70px;
+}
+
+#top-img{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.txt-right{
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.txt-right button{
+    margin-top: 5%;
+    padding: 2% 5%;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 0;
+    border: 3px solid black;
+    background-image: linear-gradient(to right,transparent,white);
+    transition-duration: 1s;
+    color: black;
+}
+
+.txt-right button:hover{
+    color: white;
+    background-image: linear-gradient(to right,black,black);
+    border: 3px solid black;
+}
+
+
+main #vdo{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.txt{
+    position:absolute ;
+    top: 50%;
+    left: 20%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.txt h1{
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.txt button{
+    margin-top: 5%;
+    font-size: 1.5em;
+    width: auto;
+    padding: 3% 5%;
+    text-align: center;
+    text-wrap: nowrap;
+    font-weight: 500;
+    border-radius: 0;
+    border: 0.1rem solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.txt button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid white;
+}
+
+
+@media screen and (max-width:781px){
+    .txt{
+        top: 40%;
+        left: 50%;
+        
+    }
+    .txt h1{
+        margin-top: 30%;
+        font-size: large;
+    }
+    .txt button{
+        margin-top: 0;
+        font-size:small;
+    }
+    
+}
+
+main #img{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+main #img img{
+    height: auto;
+    width: 100vw;
+    
+}
+
+.txt2{
+    position:absolute ;
+    top: 50%;
+    left: 80%;
+    text-wrap: nowrap;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    position:absolute ;
+    top: 0%;
+    left: 0;
+}
+
+.txt2 h1{
+    font-size: xx-large;
+}
+
+@media screen and (max-width:767px){
+    .txt2{
+        top: 80%;
+        left: 50%;
+        
+    }
+    .txt2 h1{
+        font-size: large;
+        text-wrap: nowrap;
+    }
+
+    .txt2 button{
+        font-size: small;
+    }
+    
+}
+
+.txt2 button{
+    margin-top: 5%;
+    font-size: 1.5em;
+    width: auto;
+    padding: 3% 5%;
+    text-align: center;
+    text-wrap: nowrap;
+    font-weight: 500;
+    border-radius: 0;
+    border: 0.1rem solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.txt2 button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid white;
+}
+
+footer{
+    margin-top: 5%;
+}
+
+#end{
+    margin-top: 0;
+    padding: 0;
+}
+
+.section-top{
+    background-color: #fafafa;
+    padding: 4% 0%;
+    font-size: medium;
+    line-height: 1.5rem
+}
+
+footer .section-top a{
+    text-decoration: none;
+    color: black;
+}
+
+.section-top li{
+    list-style: none;
+    margin-left: 5%;
+}
+
+.section-mid{
+    background-color: #e6e6e6;
+    padding: 1% 0%;
+    display: flex;
+    font-size: small;
+    justify-content: center;
+}
+
+.links{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-wrap: nowrap;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+
+.section-end{
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.section-end h6{
+    font-weight: lighter;
+    font-size: small;
+}
+
+@media screen and (max-width:992px) {
+    .section-top{
+        text-align: center;
+    }
+    .section-top li{
+        margin-left: 0;
+    }
+    .links{
+        width: 60%;
+    }
+}
