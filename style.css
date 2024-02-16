@@ -24,6 +24,7 @@ body{
 
 #main-nav{
     display: flex;
+    overflow-x: hidden;
     
 }
 
@@ -155,6 +156,10 @@ main #vdo{
         font-size:small;
     }
     
+}
+
+#carouselExample{
+    width: 99.9%;
 }
 
 main #img{
